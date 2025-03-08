@@ -16,5 +16,26 @@ This project is a powerful and efficient REST API built using Spring Boot. It is
 3. **The database is updated** or queried based on the request type.
 4. **A response is returned**, confirming the success or failure of the operation.
 
-This project is ideal for developers looking for a solid and well-structured Spring Boot API to manage people records in a modern and efficient way.
+## 📖 Endpoints
+- `POST /api` → Register a new person.
+- `GET /api` → Retrieve all registered people.
+- `GET /api/{id}` → Fetch a person by their ID.
+- `PUT /api` → Update an existing person's details.
+- `DELETE /api/{id}` → Remove a person from the database.
+- `GET /api/counter` → Get the total number of registered people.
+- `GET /api/orderNames` → Retrieve people ordered by name.
+- `GET /api/orderNames2` → Retrieve people ordered by name and age.
+- `GET /api/nameContain` → Find people whose names contain a specific letter.
+- `GET /api/startsWith` → Find people whose names start with a specific letter.
+- `GET /api/endsWith` → Find people whose names end with a specific letter.
+- `GET /api/sumAges` → Get the sum of all registered ages.
+- `GET /api/findByAgeGreaterOrEqual` → Find people above a certain age.
+- `GET /` → Return "Hello World!" as a simple response.
+- `GET /welcome/{name}` → Return a welcome message with the given name.
+- `GET /welcome` → Return a general welcome message.
+- `POST /person` → Receive and return a person object.
+- `GET /status` → Return HTTP status **201 Created**.
+- `POST /client` → Receive and validate a client object.
+
+
 
